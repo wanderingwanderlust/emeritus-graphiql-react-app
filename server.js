@@ -7,7 +7,7 @@ const resolvers = require('./graphql/resolver');
 const app = express();
 const PORT = 3001;
 const MONGODB_URI = "mongodb://localhost:27017/my_local_db"
-const MONGODB_CLOUD = "mongodb+srv://root:root@graph.oi6d1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+// const MONGODB_CLOUD = 
 
 
 mongoose.connect(MONGODB_URI, {useNewUrlParser: true});
